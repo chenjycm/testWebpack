@@ -1,0 +1,634 @@
+[{
+    "id": 25,
+    "sid": "ce5c8e3a92a911e78fcf00asdfasdf0704",
+    "name": "CT result",
+    "cname": "HPV检查",
+    "type": "text",
+    "option": {
+        "max": 0,
+        "min": 0,
+        "regexp": null
+    },
+    "is_write": 1,
+    "value": "写的文本，仅供测试。胡写的文本，仅供测试胡写的文本，仅供测试胡写的文本，仅供测试胡写的文本，仅供测试胡写的文本，仅供测试胡写"
+},
+{
+    "id": 34,
+    "sid": "f649171c991911e7950f6045cb647666",
+    "name": "tcttest",
+    "cname": "TCT检查",
+    "type": "tree",
+    "option": {
+        "max": 0,
+        "min": 0,
+        "regexp": null,
+        "is_single": 0
+    },
+    "is_write": 1,
+    "value": {
+        "qwer": {
+            "name": "qwer",
+            "cname": "1上皮细胞树",
+            "type": "tree",
+            "value": {
+                "sfs": {
+                    "name": "sfs",
+                    "cname": "1-1树单无子",
+                    "type": "tree",
+                    "value": [],
+                    "option": {
+                        "regexp": null,
+                        "is_single": 1
+                    },
+                    "index": "0-0-0",
+                    "parentIndex": "0-0"
+                },
+                "asdfasdf": {
+                    "name": "asdfasdf",
+                    "cname": "1-2树多无子",
+                    "type": "tree",
+                    "value": [],
+                    "option": {
+                        "max": 0,
+                        "min": 0,
+                        "regexp": null,
+                        "is_single": 0
+                    },
+                    "index": "0-0-1",
+                    "parentIndex": "0-0"
+                },
+                "dfsdfdf": {
+                    "name": "dfsdfdf",
+                    "cname": "1-3列表单",
+                    "type": "list",
+                    "value": [
+                        {
+                            "index": 1,
+                            "name": "列表单1"
+                        },
+                        {
+                            "index": 2,
+                            "name": "列表单2"
+                        },
+                        {
+                            "index": 3,
+                            "name": "列表单3"
+                        },
+                        {
+                            "index": 4,
+                            "name": "列表单4"
+                        }
+                    ],
+                    "option": {
+                        "regexp": null,
+                        "is_single": 1
+                    },
+                    "index": "0-0-2",
+                    "parentIndex": "0-0",
+                    "num": 4
+                },
+                "sfdgdd": {
+                    "name": "sfdgdd",
+                    "cname": "1-4列表多",
+                    "type": "list",
+                    "value": [
+                        {
+                            "index": 1,
+                            "name": "列表多1"
+                        },
+                        {
+                            "index": 2,
+                            "name": "列表多2"
+                        },
+                        {
+                            "index": 3,
+                            "name": "列表多3"
+                        },
+                        {
+                            "index": 4,
+                            "name": "列表多4"
+                        }
+                    ],
+                    "option": {
+                        "max": 0,
+                        "min": 0,
+                        "regexp": null,
+                        "is_single": 0
+                    },
+                    "index": "0-0-3",
+                    "parentIndex": "0-0",
+                    "num": 4
+                },
+                "fdff": {
+                    "name": "fdff",
+                    "cname": "1-5列表多多",
+                    "type": "list",
+                    "value": [
+                        {
+                            "index": 1,
+                            "name": "列表多多1"
+                        },
+                        {
+                            "index": 2,
+                            "name": "列表多多2"
+                        },
+                        {
+                            "index": 3,
+                            "name": "列表多多3"
+                        },
+                        {
+                            "index": 4,
+                            "name": "列表多多4"
+                        }
+                    ],
+                    "option": {
+                        "max": 0,
+                        "min": 0,
+                        "regexp": null,
+                        "is_single": 0
+                    },
+                    "index": "0-0-4",
+                    "parentIndex": "0-0",
+                    "num": 4
+                },
+                "fdgfedg": {
+                    "name": "fdgfedg",
+                    "cname": "文本啦",
+                    "type": "text",
+                    "value": "测试用的文字，不需要相信我哟！",
+                    "option": {
+                        "max": 0,
+                        "min": 0,
+                        "regexp": null
+                    },
+                    "index": "0-0-5",
+                    "parentIndex": "0-0"
+                },
+                "ghdfgds": {
+                    "name": "ghdfgds",
+                    "cname": "1-6又是一棵树",
+                    "type": "tree",
+                    "value": {
+                        "asdfasdf": {
+                            "name": "asdfasdf",
+                            "cname": "树子",
+                            "type": "tree",
+                            "value": {
+                                "sdfasdf": {
+                                    "name": "sdfasdf",
+                                    "cname": "树无子",
+                                    "type": "tree",
+                                    "value": [],
+                                    "option": {
+                                        "regexp": null,
+                                        "is_single": 1
+                                    },
+                                    "index": "0-0-6-0-0",
+                                    "parentIndex": "0-0-6-0"
+                                },
+                                "dfasdf": {
+                                    "name": "dfasdf",
+                                    "cname": "树无子2",
+                                    "type": "tree",
+                                    "value": [],
+                                    "option": {
+                                        "regexp": null,
+                                        "is_single": 1
+                                    },
+                                    "index": "0-0-6-0-1",
+                                    "parentIndex": "0-0-6-0"
+                                },
+                                "asdfasdf": {
+                                    "name": "asdfasdf",
+                                    "cname": "列表多选",
+                                    "type": "list",
+                                    "value": [
+                                        {
+                                            "index": 1,
+                                            "name": "asdfasdf"
+                                        },
+                                        {
+                                            "index": 2,
+                                            "name": "是否水电费"
+                                        },
+                                        {
+                                            "index": 3,
+                                            "name": "水电费是否"
+                                        },
+                                        {
+                                            "index": 4,
+                                            "name": "gas的发送的"
+                                        }
+                                    ],
+                                    "option": {
+                                        "max": 0,
+                                        "min": 0,
+                                        "regexp": null,
+                                        "is_single": 0
+                                    },
+                                    "index": "0-0-6-0-2",
+                                    "parentIndex": "0-0-6-0",
+                                    "num": 4
+                                },
+                                "gfdddd": {
+                                    "name": "gfdddd",
+                                    "cname": "列表还是多",
+                                    "type": "list",
+                                    "value": [
+                                        {
+                                            "index": 1,
+                                            "name": "列表多多多度的"
+                                        },
+                                        {
+                                            "index": 2,
+                                            "name": "阿斯顿发生"
+                                        },
+                                        {
+                                            "index": 3,
+                                            "name": "俺的沙发"
+                                        },
+                                        {
+                                            "index": 4,
+                                            "name": "到底是发顺丰"
+                                        }
+                                    ],
+                                    "option": {
+                                        "max": 0,
+                                        "min": 0,
+                                        "regexp": null,
+                                        "is_single": 0
+                                    },
+                                    "index": "0-0-6-0-3",
+                                    "parentIndex": "0-0-6-0",
+                                    "num": 4
+                                }
+                            },
+                            "option": {
+                                "max": 0,
+                                "min": 0,
+                                "regexp": null,
+                                "is_single": 0
+                            },
+                            "index": "0-0-6-0",
+                            "parentIndex": "0-0-6"
+                        },
+                        "adsfasdf": {
+                            "name": "adsfasdf",
+                            "cname": "列表多",
+                            "type": "list",
+                            "value": [
+                                {
+                                    "index": 1,
+                                    "name": "列表多多1"
+                                },
+                                {
+                                    "index": 2,
+                                    "name": "列多多2"
+                                },
+                                {
+                                    "index": 3,
+                                    "name": "列多多3"
+                                },
+                                {
+                                    "index": 4,
+                                    "name": "列多多4"
+                                }
+                            ],
+                            "option": {
+                                "max": 0,
+                                "min": 0,
+                                "regexp": null,
+                                "is_single": 0
+                            },
+                            "index": "0-0-6-1",
+                            "parentIndex": "0-0-6",
+                            "num": 4
+                        },
+                        "sdfasdfsadf": {
+                            "name": "sdfasdfsadf",
+                            "cname": "文本",
+                            "type": "text",
+                            "value": "我就是天生用来测试的，然后就被抛弃了，呜呜呜~~~",
+                            "option": {
+                                "max": 0,
+                                "min": 0,
+                                "regexp": null
+                            },
+                            "index": "0-0-6-2",
+                            "parentIndex": "0-0-6"
+                        },
+                        "dfsdfddd": {
+                            "name": "dfsdfddd",
+                            "cname": "列表多多多度的",
+                            "type": "list",
+                            "value": [
+                                {
+                                    "index": 1,
+                                    "name": "列表多多多度的1"
+                                },
+                                {
+                                    "index": 2,
+                                    "name": "列表多多多度的2"
+                                },
+                                {
+                                    "index": 3,
+                                    "name": "列表多多多度的3"
+                                },
+                                {
+                                    "index": 4,
+                                    "name": "列表多多多度的5"
+                                }
+                            ],
+                            "option": {
+                                "max": 0,
+                                "min": 0,
+                                "regexp": null,
+                                "is_single": 0
+                            },
+                            "index": "0-0-6-3",
+                            "parentIndex": "0-0-6",
+                            "num": 4
+                        }
+                    },
+                    "option": {
+                        "max": 0,
+                        "min": 0,
+                        "regexp": null,
+                        "is_single": 0
+                    },
+                    "index": "0-0-6",
+                    "parentIndex": "0-0"
+                }
+            },
+            "option": {
+                "max": 0,
+                "min": 0,
+                "regexp": null,
+                "is_single": 0
+            },
+            "index": "0-0",
+            "parentIndex": 0
+        },
+        "sdff": {
+            "name": "sdff",
+            "cname": "2单选",
+            "type": "list",
+            "value": [
+                {
+                    "index": 1,
+                    "name": "单选1"
+                },
+                {
+                    "index": 2,
+                    "name": "单选2"
+                },
+                {
+                    "index": 3,
+                    "name": "单选3"
+                },
+                {
+                    "index": 4,
+                    "name": "单选4"
+                }
+            ],
+            "option": {
+                "regexp": null,
+                "is_single": 1
+            },
+            "index": "0-1",
+            "parentIndex": 0,
+            "num": 4
+        },
+        "fsdfd": {
+            "name": "fsdfd",
+            "cname": "3多选",
+            "type": "list",
+            "value": [
+                {
+                    "index": 1,
+                    "name": "多选1"
+                },
+                {
+                    "index": 2,
+                    "name": "多选2"
+                },
+                {
+                    "index": 3,
+                    "name": "多选3"
+                },
+                {
+                    "index": 4,
+                    "name": "多选4"
+                }
+            ],
+            "option": {
+                "max": 0,
+                "min": 0,
+                "regexp": null,
+                "is_single": 0
+            },
+            "index": "0-2",
+            "parentIndex": 0,
+            "num": 4
+        },
+        "dfsdf": {
+            "name": "dfsdf",
+            "cname": "3多选2",
+            "type": "list",
+            "value": [
+                {
+                    "index": 1,
+                    "name": "多选21"
+                },
+                {
+                    "index": 2,
+                    "name": "多选22"
+                },
+                {
+                    "index": 3,
+                    "name": "多选23"
+                },
+                {
+                    "index": 4,
+                    "name": "多选24"
+                }
+            ],
+            "option": {
+                "max": 0,
+                "min": 0,
+                "regexp": null,
+                "is_single": 0
+            },
+            "index": "0-3",
+            "parentIndex": 0,
+            "num": 4
+        },
+        "sdfasdf": {
+            "name": "sdfasdf",
+            "cname": "5文本",
+            "type": "text",
+            "value": "我的data生就是为了测试的，没有我你也什么也不行",
+            "option": {
+                "max": 0,
+                "min": 0,
+                "regexp": null
+            },
+            "index": "0-4",
+            "parentIndex": 0
+        },
+        "sdfasdfsdf": {
+            "name": "sdfasdfsdf",
+            "cname": "6参天大tree",
+            "type": "tree",
+            "value": {
+                "dfasdfdf": {
+                    "name": "dfasdfdf",
+                    "cname": "列表多选",
+                    "type": "list",
+                    "value": [
+                        {
+                            "index": 1,
+                            "name": "asdfasdfas"
+                        },
+                        {
+                            "index": 2,
+                            "name": "fasdfasdf"
+                        },
+                        {
+                            "index": 3,
+                            "name": "sdfasfasdf"
+                        },
+                        {
+                            "index": 4,
+                            "name": "asdfasdfasfas"
+                        }
+                    ],
+                    "option": {
+                        "max": 0,
+                        "min": 0,
+                        "regexp": null,
+                        "is_single": 0
+                    },
+                    "index": "0-5-0",
+                    "parentIndex": "0-5",
+                    "num": 4
+                },
+                "asdfasdfsdfsf": {
+                    "name": "asdfasdfsdfsf",
+                    "cname": "列表单选",
+                    "type": "list",
+                    "value": [
+                        {
+                            "index": 1,
+                            "name": "asdfasdfasd"
+                        },
+                        {
+                            "index": 2,
+                            "name": "asdfsafs"
+                        },
+                        {
+                            "index": 3,
+                            "name": "aaaaaaaaaaa"
+                        },
+                        {
+                            "index": 4,
+                            "name": "fffffffffffff"
+                        }
+                    ],
+                    "option": {
+                        "regexp": null,
+                        "is_single": 1
+                    },
+                    "index": "0-5-1",
+                    "parentIndex": "0-5",
+                    "num": 4
+                },
+                "dfsdt": {
+                    "name": "dfsdt",
+                    "cname": "文本了哈",
+                    "type": "text",
+                    "value": "我的命怎么这么苦，要是谁送我iPhone X我就高兴惨了。",
+                    "option": {
+                        "max": 0,
+                        "min": 0,
+                        "regexp": null
+                    },
+                    "index": "0-5-2",
+                    "parentIndex": "0-5"
+                },
+                "asdfsdfsdf": {
+                    "name": "asdfsdfsdf",
+                    "cname": "树种长树单无子",
+                    "type": "tree",
+                    "value": [],
+                    "option": {
+                        "regexp": null,
+                        "is_single": 1
+                    },
+                    "index": "0-5-3",
+                    "parentIndex": "0-5"
+                },
+                "asdfasdfas": {
+                    "name": "asdfasdfas",
+                    "cname": "树种长树多无子",
+                    "type": "tree",
+                    "value": [],
+                    "option": {
+                        "max": 0,
+                        "min": 0,
+                        "regexp": null,
+                        "is_single": 0
+                    },
+                    "index": "0-5-4",
+                    "parentIndex": "0-5"
+                }
+            },
+            "option": {
+                "max": 0,
+                "min": 0,
+                "regexp": null,
+                "is_single": 0
+            },
+            "index": "0-5",
+            "parentIndex": 0
+        },
+        "asdfasf": {
+            "name": "asdfasf",
+            "cname": "7单个树无子",
+            "type": "tree",
+            "value": [],
+            "option": {
+                "regexp": null,
+                "is_single": 1
+            },
+            "index": "0-6",
+            "parentIndex": 0
+        },
+        "asdfasdf": {
+            "name": "asdfasdf",
+            "cname": "8单个树无子",
+            "type": "tree",
+            "value": [],
+            "option": {
+                "regexp": null,
+                "is_single": 1
+            },
+            "index": "0-7",
+            "parentIndex": 0
+        }
+    }
+},
+{
+    "id": 23,
+    "sid": "ce5c8e3a92a911e78fcf000c291f0704",
+    "name": "CT result",
+    "cname": "CT结果",
+    "type": "text",
+    "option": {
+        "max": 0,
+        "min": 0,
+        "regexp": null
+    },
+    "is_write": 1,
+    "value": "身体棒棒哒！检出没有什么问题"
+}]

@@ -1,5 +1,5 @@
 {
-  "name": "testWebpack",
+  "name": "testwebpack",
   "version": "1.0.0",
   "description": "nice to meet you",
   "dependencies": {
@@ -17,6 +17,7 @@
     "babel-preset-react-app": "^3.0.2",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.5.3",
     "postcss-loader": "^2.0.6",
@@ -33,7 +34,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack",
     "server": "webpack-dev-server --open",
-    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress"
+    "build": "set NODE_ENV=production && webpack --config ./webpack.config.js --progress"
   },
   "author": "Chen",
   "license": "ISC"
